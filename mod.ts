@@ -1,1 +1,1 @@
-export * from "./buffer.ts";
+export * from "./src/buffer.ts";

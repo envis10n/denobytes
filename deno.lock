@@ -1,0 +1,32 @@
+{
+  "version": "5",
+  "specifiers": {
+    "jsr:@std/assert@^1.0.13": "1.0.13",
+    "jsr:@std/bytes@^1.0.6": "1.0.6",
+    "jsr:@std/internal@^1.0.6": "1.0.6"
+  },
+  "jsr": {
+    "@std/assert@1.0.13": {
+      "integrity": "ae0d31e41919b12c656c742b22522c32fb26ed0cba32975cb0de2a273cb68b29",
+      "dependencies": [
+        "jsr:@std/internal"
+      ]
+    },
+    "@std/bytes@1.0.6": {
+      "integrity": "f6ac6adbd8ccd99314045f5703e23af0a68d7f7e58364b47d2c7f408aeb5820a"
+    },
+    "@std/internal@1.0.6": {
+      "integrity": "9533b128f230f73bd209408bb07a4b12f8d4255ab2a4d22a1fd6d87304aca9a4"
+    }
+  },
+  "remote": {
+    "https://deno.land/std@0.126.0/bytes/equals.ts": "6f38a72d4a75a1232fe984e5fb362b962c2e9bec6385f4ca13252e1ca53dba00",
+    "https://deno.land/std@0.126.0/bytes/mod.ts": "ed5c42feb746c3709d186787346004f97301dc076b33434653e451efd8efcf6a"
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@std/assert@^1.0.13",
+      "jsr:@std/bytes@^1.0.6"
+    ]
+  }
+}
